@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="PizzaBoy.jpg" />
 
     <link
       rel="shortcut icon"
@@ -16,11 +16,11 @@
       href="https://devchallenges.io/"
     />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" 
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <link 
       rel="stylesheet" 
@@ -32,416 +32,350 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 
 
-    <title>Portfolio CSS Review</title>
+    <title>Joey's Portfolio</title>
   </head>
 
   <body>
     <div class="main">
-      <div class="profile container long">
-        <img class="profile-image" src="PizzaBoy.jpg" alt="pizza boy">
-        <div class="profile-info">
-          <div class="profile-header">
-            <div class="profile-name">
-              <h2>Joey Jenson</h2>
-              <h3>Front-end developer</h3>
-            </div>
-            <div class="profile-contact">
-              <div class="contact-email">
-                <i class="fas fa-envelope"></i>
-                <h3>joey@example.com</h3>
+      <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <span class="material-icons">
+              polymer
+            </span>
+          </div>
+          <ul class="nav-links">
+            <li>
+              <a href="#" class="active">Home</a>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <span class="material-icons nav-menu">
+            menu
+            </span>
+        </div>
+      </nav>
+      <section class="section">
+        <!-- Profile -->
+        <div class="profile long container">
+          <div class="profile-image">
+            <img class="image" src="profile.jpg" alt="profile">
+          </div>
+          <div class="profile-info">
+            <div class="profile-header">
+              <div class="profile-name">
+                <h2>Joey Jenson</h2>
+                <h3>Front-end developer</h3>
               </div>
-              <div class="contact-phone">
-                <i class="fas fa-phone-alt"></i>
-                <h3>801-833-3346</h3>
+              <div class="profile-contact">
+                <div class="contact-email">
+                  <i class="fas fa-envelope"></i>
+                  <h3>jcjenson3@gmail.com</h3>
+                </div>
+                <div class="contact-phone">
+                  <i class="fas fa-phone-alt"></i>
+                  <h3>801-833-3346</h3>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="profile-summary">
-            <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
-            <br>
-            <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-          </div>
-        </div>
-      </div>
-      <div class="profile tall container">
-        <img class="profile-image-tall" src="PizzaBoy.jpg" alt="pizza boy">
-        <div class="profile-info">
-          <div class="profile-header-tall">
-            <div class="profile-name-tall">
-              <h2>Joey Jenson</h2>
-              <h3>Front-end developer</h3>
-            </div>
-            <div class="profile-contact">
-              <div class="contact-email">
-                <i class="fas fa-envelope"></i>
-                <h3>joey@example.com</h3>
-              </div>
-              <div class="contact-phone">
-                <i class="fas fa-phone-alt"></i>
-                <h3>801-833-3346</h3>
-              </div>
-            </div>
-          </div>
-          <div class="profile-summary-tall">
-            <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
-            <br>
-            <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="project long container">
-        <img class="project-image" src="PizzaBoy.jpg" alt="pizza boy">
-        <div class="project-long">
-          <div class="project-links">
-            <a href="#">#HTML</a>
-            <a href="#">#CSS</a>
-            <a href="#">#responsive</a>
-          </div>
-          <div class="project-content">
-            <h2>Recipe Blog</h2>
-            <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec
-            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-          </div>
-          <div class="project-buttons">
-            <button class="btn demo-btn">Demo</button>
-            <button class="btn code-btn">Code</button>
-          </div>
-        </div>
-      </div>
-      <div class="project tall container">
-        <img class="project-image-tall" src="PizzaBoy.jpg" alt="pizza boy">
-        <div class="project-tall">
-          <div class="project-links">
-            <a href="#">#HTML</a>
-            <a href="#">#CSS</a>
-            <a href="#">#responsive</a>
-          </div>
-          <div class="project-content">
-            <h2>Recipe Blog</h2>
-            <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec
-            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-          </div>
-          <div class="project-buttons">
-            <button class="btn demo-btn">Demo</button>
-            <button class="btn code-btn">Code</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills long container">
-        <h3>Front End</h3>
-        <div class="skills-content">
-          <div class="skill">
-            <h4>React</h4>
-            <div class="skill-bar-gray">
-              <div class="skill-bar-blue react"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>JavaScript</h4>
-            <div class="skill-bar-gray">
-              <div class="skill-bar-blue javascript"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>CSS</h4>
-            <div class="skill-bar-gray">
-              <div class="skill-bar-blue css"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>HTML</h4>
-            <div class="skill-bar-gray">
-              <div class="skill-bar-blue html"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>SASS</h4>
-            <div class="skill-bar-gray">
-              <div class="skill-bar-blue sass"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>Redux</h4>
-            <div class="skill-bar-gray">
-              <div class="skill-bar-blue redux"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="skills tall container">
-        <h3>Front End</h3>
-        <div class="skills">
-          <div class="skill">
-            <h4>React</h4>
-            <div class="skill-bar-tall">
-              <div class="skill-bar-blue react"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>JavaScript</h4>
-            <div class="skill-bar-tall">
-              <div class="skill-bar-blue javascript"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>CSS</h4>
-            <div class="skill-bar-tall">
-              <div class="skill-bar-blue css"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>HTML</h4>
-            <div class="skill-bar-tall">
-              <div class="skill-bar-blue html"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>SASS</h4>
-            <div class="skill-bar-tall">
-              <div class="skill-bar-blue sass"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <h4>Redux</h4>
-            <div class="skill-bar-tall">
-              <div class="skill-bar-blue react"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="blog long container">
-        <div class="blog-content">
-          <div class="blog-info">
-            <h4>Blog</h4>
-            <h2>How to organize your CSS</h2>
-          </div>
-          <div class="blog-summary">
-            <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a
-              luctus mi.</p>
+            <div class="profile-summary">
+              <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
               <br>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-          </div>
-          <div class="blog-footer">
-            <a href="#">dev.to</a>
+              <p>Blends self-study of web development with 6 years experience in client-facing roles to provide skills in innovative problem solving, responsive web design, and functional web development.</p>
+            </div>
           </div>
         </div>
-        <img class="blog-image" src="PizzaBoy.jpg" alt="pizza boy">
-      </div>
-      <div class="blog tall container">
-        <div class="blog-content">
-          <div class="blog-info">
-            <h4>Blog</h4>
-            <h2>How to organize your CSS</h2>
-            <img class="blog-image-tall" src="PizzaBoy.jpg" alt="pizza boy">
-          </div>
-          <div class="blog-summary-tall">
-            <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a
-              luctus mi.</p>
-              <br>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-          </div>
-          <div class="blog-footer">
-            <a href="#">dev.to</a>
+        <!-- Skills -->
+        <div class="skills tall container">
+          <h3>Front End</h3>
+          <div class="skills-content">
+            <div class="skill">
+              <h4><a href="#">HTML</a></h4>
+              <div class="skill-bar">
+                <div class="skill-bar-blue html"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <h4><a href="#">CSS</a></h4>
+              <div class="skill-bar">
+                <div class="skill-bar-blue css"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <h4><a href="#">JavaScript</a></h4>
+              <div class="skill-bar">
+                <div class="skill-bar-blue javascript"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <h4><a href="#">React</a></h4>
+              <div class="skill-bar">
+                <div class="skill-bar-blue react"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <h4><a href="#">SASS</a></h4>
+              <div class="skill-bar">
+                <div class="skill-bar-blue sass"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <h4><a href="#">WordPress</a></h4>
+              <div class="skill-bar">
+                <div class="skill-bar-blue wordpress"></div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+        
+        <!-- Project filters -->
+        <div class="project-filters container long">
+          <h2>Projects</h2>
+          <div class="project-filter-buttons">
+            <button class="btn filter-btn">
+              HTML
+            </button>
+            <button class="btn filter-btn">
+              CSS
+            </button>
+            <button class="btn filter-btn">
+              JavaScript
+            </button>
+            <button class="btn filter-btn">
+              React
+            </button>
+            <button class="btn filter-btn">
+              SASS
+            </button>
+            <button class="btn filter-btn">
+              WordPress
+            </button>
+          </div>
+        </div>
+        <!-- Projects -->
+        <div class="project-one container">
+          <div class="project-image">
+            <img class="image" src="404-pagenotfound.png" alt="404 page not found">
+          </div>
+          <div class="project-tall">
+            <div class="project-links">
+              <a href="#">#HTML</a>
+              <a href="#">#CSS</a>
+              <a href="#">#responsive</a>
+            </div>
+            <div class="project-content">
+              <h2>404 Challenge</h2>
+              <p>In this project, I was given a design and user stories to create a responsive webpage with HTML and CSS. The design is from DevChallenge.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="project-two container">
+          <div class="project-image">
+            <img class="image" src="interiorconsultant.png" alt="interior consultant">
+          </div>
+          <div class="project-tall">
+            <div class="project-links">
+              <a href="#">#HTML</a>
+              <a href="#">#CSS</a>
+              <a href="#">#responsive</a>
+            </div>
+            <div class="project-content">
+              <h2>Interior Consultant</h2>
+              <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec
+              aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="project-three container">
+          <div class="project-image">
+            <img class="image" src="myteampage.png" alt="my team page">
+          </div>
+          <div class="project-tall">
+            <div class="project-links">
+              <a href="#">#HTML</a>
+              <a href="#">#CSS</a>
+              <a href="#">#responsive</a>
+            </div>
+            <div class="project-content">
+              <h2>My Team Page</h2>
+              <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec
+              aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="project-four container">
+          <div class="project-image">
+            <img class="image" src="riceywright.png" alt="Ricey Wright">
+          </div>
+          <div class="project-tall">
+            <div class="project-links">
+              <a href="#">#WordPress</a>
+              <a href="#">#responsive</a>
+            </div>
+            <div class="project-content">
+              <h2>Ricey Wright</h2>
+              <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec
+              aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-five container">
+          <div class="project-image">
+            <img class="image" src="solidse.png" alt="Solid SE">
+          </div>
+          <div class="project-tall">
+            <div class="project-links">
+              <a href="#">#WordPress</a>
+              <a href="#">#responsive</a>
+            </div>
+            <div class="project-content">
+              <h2>Solid SE</h2>
+              <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec
+              aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-six container">
+          <div class="project-image">
+            <img class="image" src="404-pagenotfound.png" alt="404 page not found">
+          </div>
+          <div class="project-tall">
+            <div class="project-links">
+              <a href="#">#HTML</a>
+              <a href="#">#CSS</a>
+              <a href="#">#responsive</a>
+            </div>
+            <div class="project-content">
+              <h2>Recipe Blog</h2>
+              <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Donec
+              aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="experiences long container">
-        <h2>Experience</h2>
-        <div class="experiences-content">
-          <div class="experiences-summary">
-            <img class="experiences-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="experiences-title">
-              <h5>Feb 2017 - Current</h5>
-              <h4>Front-end developer</h4>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+        <!-- Experiences -->
+        <div class="experiences tall container">
+          <h2>Experience</h2>
+          <div class="experiences-content-tall">
+            <div class="experiences-summary">
+              <div class="experiences-image">
+                <img class="image" src="nuskin.jpg" alt="Nu Skin">
+              </div>
+              <div class="experiences-title">
+                <h5>June 2017 - Current</h5>
+                <h4>Regional Account Manager</h4>
+                <p>Partnered with leading entrepreneurs, whose organizations ranged from 100 to 10,000 customers, through planning and goal-setting to build and grow a healthy long-term business.</p>
+              </div>
             </div>
-          </div>
-          <div class="experiences-summary">
-            <img class="experiences-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="experiences-title">
-              <h5>Aug 2016 - Feb 2017</h5>
-              <h4>Full-stack developer</h4>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            <div class="experiences-summary">
+              <div class="experiences-image">
+                <img class="image" src="peg.png" alt="PEG">
+              </div>
+              <div class="experiences-title">
+                <h5>Feb 2019 - May 2019</h5>
+                <h4>Market Research Intern</h4>
+                <p>Conducted market research on whether or not to expand an existing hotel chain or re-purpose it as multi-family housing. Presented the research to the owners and executives of PEG Development.</p>
+              </div>
             </div>
-          </div>
-          <div class="experiences-summary">
-            <img class="experiences-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="experiences-title">
-              <h5>Jun 2015 - Aug 2016</h5>
-              <h4>Junior front-end developer</h4>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="experiences tall container">
-        <h2>Experience</h2>
-        <div class="experiences-content-tall">
-          <div class="experiences-summary">
-            <img class="experiences-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="experiences-title">
-              <h5>Feb 2017 - Current</h5>
-              <h4>Front-end developer</h4>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-          <div class="experiences-summary">
-            <img class="experiences-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="experiences-title">
-              <h5>Aug 2016 - Feb 2017</h5>
-              <h4>Full-stack developer</h4>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-          <div class="experiences-summary">
-            <img class="experiences-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="experiences-title">
-              <h5>Jun 2015 - Aug 2016</h5>
-              <h4>Junior front-end developer</h4>
-              <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            <div class="experiences-summary">
+              <div class="experiences-image">
+                <img class="image" src="nuskin.jpg" alt="Nu Skin">
+              </div>
+              <div class="experiences-title">
+                <h5>Nov 2016 - June 2017</h5>
+                <h4>Business Info Lead</h4>
+                <p>Led business support representatives by providing them with essential updates and information while assisting them with problems regarding commissions, business opportunities, and business account information.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="hobbies container long">
-        <h2>Hobbies</h2>
-        <div class="hobbies-content">
-          <div class="hobbies-card">
-            <img class="hobbies-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="hobbies-card-text">
-              <h3>Gaming</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
+        <!-- Hobbies -->
+        <div class="hobbies container tall">
+          <h2>Hobbies</h2>
+          <div class="hobbies-content-tall">
+            <div class="hobbies-card">
+              <div class="hobbies-image">
+                <img class="image" src="biking.jpg" alt="biking">
+              </div>
+              <div class="hobbies-card-text">
+                <h3>Gaming</h3>
+                <p>Quisque feugiat malesuada molestie.</p>
+              </div>
             </div>
-          </div>
-          <div class="hobbies-card">
-            <img class="hobbies-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="hobbies-card-text">
-              <h3>Cooking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
+            <div class="hobbies-card">
+              <div class="hobbies-image">
+                <img class="image" src="biking.jpg" alt="biking">
+              </div>
+              <div class="hobbies-card-text">
+                <h3>Cooking</h3>
+                <p>Quisque feugiat malesuada molestie.</p>
+              </div>
             </div>
-          </div>
-          <div class="hobbies-card">
-            <img class="hobbies-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="hobbies-card-text">
-              <h3>Biking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hobbies container tall">
-        <h2>Hobbies</h2>
-        <div class="hobbies-content-tall">
-          <div class="hobbies-card">
-            <img class="hobbies-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="hobbies-card-text">
-              <h3>Gaming</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-          <div class="hobbies-card">
-            <img class="hobbies-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="hobbies-card-text">
-              <h3>Cooking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-          <div class="hobbies-card">
-            <img class="hobbies-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="hobbies-card-text">
-              <h3>Biking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
+            <div class="hobbies-card">
+              <div class="hobbies-image">
+                <img class="image" src="biking.jpg" alt="biking">
+              </div>
+              <div class="hobbies-card-text">
+                <h3>Biking</h3>
+                <p>Quisque feugiat malesuada molestie.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="certificates container long">
-        <h2>Certificates</h2>
-        <div class="certificates-content">
-          <div class="certificates-card">
-            <img class="certificates-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="certificates-card-text">
-              <h3>Gaming</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
+        <!-- Certificates -->
+        <div class="certificates container long">
+          <h2>Certificates</h2>
+          <div class="certificates-content">
+            <div class="certificates-card">
+              <div class="certificates-image">
+                <img class="image" src="PizzaBoy.jpg" alt="pizza boy">
+              </div>
+              <div class="certificates-card-text">
+                <h3>Gaming</h3>
+                <p>Quisque feugiat malesuada molestie.</p>
+              </div>
             </div>
-          </div>
-          <div class="certificates-card">
-            <img class="certificates-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="certificates-card-text">
-              <h3>Cooking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-          <div class="certificates-card">
-            <img class="certificates-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="certificates-card-text">
-              <h3>Biking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
+            <div class="certificates-card">
+              <div class="certificates-image">
+                <img class="image" src="PizzaBoy.jpg" alt="pizza boy">
+              </div>
+              <div class="certificates-card-text">
+                <h3>Cooking</h3>
+                <p>Quisque feugiat malesuada molestie.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="certificates container tall">
-        <h2>Certificates</h2>
-        <div class="certificates">
-          <div class="certificates-card">
-            <img class="certificates-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="certificates-card-text">
-              <h3>Gaming</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </div>
+  
+        <!-- <div class="more-projects-filters container long">
+          <h2>Projects (3)</h2>
+          <div class="project-filters">
+            <button class="btn filter-btn">
+              React
+            </button>
+            <button class="btn filter-btn">
+              JavaScript
+            </button>
+            <button class="btn filter-btn active-btn">
+              Responsive
+            </button>
           </div>
-          <div class="certificates-card">
-            <img class="certificates-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="certificates-card-text">
-              <h3>Cooking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-          <div class="certificates-card">
-            <img class="certificates-image" src="PizzaBoy.jpg" alt="pizza boy">
-            <div class="certificates-card-text">
-              <h3>Biking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </div>
-          </div>
-        </div>
+        </div> -->
+        
+  
       </div>
-
-      <div class="more-projects container long">
-        <h2>Projects (3)</h2>
-      </div>
-      <div class="more-projects container long">
-        <h2>Projects (3)</h2>
-        <div class="project-filters">
-          <button class="btn filter-btn">
-            React
-          </button>
-          <button class="btn filter-btn">
-            JavaScript
-          </button>
-          <button class="btn filter-btn active-btn">
-            Responsive
-          </button>
-        </div>
-      </div>
-
-      <div class="pages">
-        <div class="page-buttons">
-          <button class="btn page-btn prev"><i class="fas fa-angle-left"></i></button>
-          <button class="btn page-btn active-btn">1</button>
-          <button class="btn page-btn">2</button>
-          <button class="btn page-btn">3</button>
-          <button class="btn page-btn next"><i class="fas fa-angle-right"></i></button>
-        </div>
-      </div>
-    </div>
+      </section>
   <!-- javascript -->
   <script src="app.js"></script>
   </body>
